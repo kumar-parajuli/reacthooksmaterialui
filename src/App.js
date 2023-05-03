@@ -1,4 +1,5 @@
 import React from "react";
+import DataFetchingtwo from "./Components/DataFetchingtwo";
 // import MuiSwitch from "./Components/MuiSwitch";
 // import MuiTextField from "./Components/MuiTextField";
 // import MuiSelect from "./Components/MuiSelect";
@@ -9,7 +10,7 @@ import React from "react";
 // import Counter from "./Counter";
 // import YoutubeForm from "./Components/YoutubeForm";
 // import { ValidationSchemaExample } from "./Components/ValidationSchemaExample";
-import HookCounter from "./Components/HookCounter";
+// import HookCounter from "./Components/HookCounter";
 //  import { ValidationSchema } from "./Components/validationSchema";
 // import RegistrationFrom from "./Components/RegistrationFrom";
 // import MuiButton from "./Components/MuiButton";
@@ -17,7 +18,7 @@ import HookCounter from "./Components/HookCounter";
 
 // import HookFour from "./Components/HookFour";
 
-import DataFetchingone from "./Components/DataFetchingone";
+// import DataFetchingone from "./Components/DataFetchingone";
 
 function App() {
   // const [count, setCount] = useState(0);
@@ -25,7 +26,8 @@ function App() {
   // console.log(useState(0));
   return (
     <div className="App">
-      <DataFetchingone />
+      <DataFetchingtwo/>
+      {/* <DataFetchingone /> */}
       {/* <HookFour/> */}
       {/* <HookCounter/> */}
 

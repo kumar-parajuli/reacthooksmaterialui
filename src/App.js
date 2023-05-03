@@ -1,5 +1,6 @@
 import React from "react";
-import DataFetchingtwo from "./Components/DataFetchingtwo";
+import Counter from "./Components/Counter";
+// import DataFetchingtwo from "./Components/DataFetchingtwo";
 // import MuiSwitch from "./Components/MuiSwitch";
 // import MuiTextField from "./Components/MuiTextField";
 // import MuiSelect from "./Components/MuiSelect";
@@ -26,7 +27,8 @@ function App() {
   // console.log(useState(0));
   return (
     <div className="App">
-      <DataFetchingtwo/>
+      <Counter />
+      {/* <DataFetchingtwo/> */}
       {/* <DataFetchingone /> */}
       {/* <HookFour/> */}
       {/* <HookCounter/> */}
